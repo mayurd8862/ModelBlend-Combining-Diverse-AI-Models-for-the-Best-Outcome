@@ -15,7 +15,6 @@ from langchain_groq import ChatGroq
 import time 
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_openai import ChatOpenAI
-from langchain_anthropic import ChatAnthropic
 
 GOOGLE_API_KEY = st.secrets["GOOGLE_API_KEY"]
 GROQ_API_KEY = st.secrets["GROQ_API_KEY"]
