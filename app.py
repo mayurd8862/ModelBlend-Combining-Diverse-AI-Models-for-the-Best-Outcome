@@ -20,7 +20,7 @@ GOOGLE_API_KEY = st.secrets["GOOGLE_API_KEY"]
 GROQ_API_KEY = st.secrets["GROQ_API_KEY"]
 OPENAI_API_KEY = st.secrets["OPENAI_API_KEY"]
 
-openai_model = ChatOpenAI(model="gpt-4o-mini")
+openai_model = ChatOpenAI(model="gpt-4o")
 gemini_model = ChatGoogleGenerativeAI(model="gemini-1.5-pro")
 llama_model = ChatGroq(model="llama-3.1-70b-versatile")
 
